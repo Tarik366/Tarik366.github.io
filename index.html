@@ -4,18 +4,40 @@
 </head>
 <body>
     <style>
+        * {
+            color: #1085eb;
+            margin: 0;
+        }
         body {
             background-color: #222;
+        }
+        header {
+        	background: #1085eb;
+        	color: #fff !important;
+        }
+        header a {
+        	color: #fff;
+        	text-decoration: none;
+        	font-family: arial;
+        }
+        .avatar {
+        	width: 60;
+        	border-radius: 50%;
         }
     </style>
     <header>
         <div id="header-left">
-            <a href="https://github.com/Tarik366">
-                <img src="https://avatars.githubusercontent.com/u/67359075?v=4" />
-            </a>
-            
-            <a href="https://github.com/Tarik366?tab=repositories" alt="Repositories" >Repositories</a>
-            <a href="" alt="About">About</a>
+            <div id="avatar">
+                <a href="https://github.com/Tarik366" >
+                    <img class="avatar" src="https://avatars.githubusercontent.com/u/67359075?v=4" />
+                </a>
+            </div>
+            <div id="repos">
+                <a href="https://github.com/Tarik366?tab=repositories" alt="Repositories" >Repositories</a>
+            </div>
+            <div id="about">
+                <a href="" alt="About">About</a>
+            </div>
         </div>
     </header>
 </body>
